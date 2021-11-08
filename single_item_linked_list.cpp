@@ -33,5 +33,7 @@ Node *create_node(int item, Node *next)
     new_node->data = item;
     new_node->next = next;
 
+    delete new_node;
+
     return new_node;
 }
