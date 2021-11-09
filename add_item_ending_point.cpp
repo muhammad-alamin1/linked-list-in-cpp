@@ -26,7 +26,7 @@ int main()
 
     n1 = append(head, 24);
     head = n1;
-    print_linked_list(n1);
+    print_linked_list(head);
 
     return 0;
 }
